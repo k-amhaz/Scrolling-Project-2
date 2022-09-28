@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+}
+
+section.one {
+  background-color: gray;
+}
+section.two {
+  background-color: gainsboro;
+}
+section.this {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.three {
+  background-color: gray;
+}
+
+section.the .nums {
+  width: 500px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nums .num {
+  display: inline-block;
+  margin-left: 100px;
+  font-size: 40px;
+}
